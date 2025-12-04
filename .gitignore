@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+backend/coverage/
+frontend/coverage/
+*.log
+
+# Environment
+.env
+.env.local
+.env*.local
+backend/.env
+frontend/.env
+
+# Build
+dist/
+build/
+.next/
+out/
+backend/dist/
+frontend/.next/
+frontend/.turbo/
+frontend/.vercel/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads (local dev)
+uploads/
+temp/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Generated Prisma client
+backend/src/generated/
